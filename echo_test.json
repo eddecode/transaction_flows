@@ -14,7 +14,7 @@
     },
     {
       "id": "confirm_step",
-      "type": "input",
+      "type": "input", 
       "metadata": {
         "inputSubtype": "confirmation",
         "label": "Do you want to proceed?",
