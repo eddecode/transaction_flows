@@ -7,7 +7,7 @@
       "metadata": {
         "key": "host",
         "inputSubtype": "optionSelector",
-        "label": "acquirers",
+        "label": "Acquirers",
         "options": "dms.acquirers"
       },
       "cancelable": true
