@@ -7,8 +7,8 @@
       "metadata": {
         "key": "host",
         "inputSubtype": "optionSelector",
-        "label": "Merchant",
-        "options": "dms.merchants"
+        "label": "Acquirers",
+        "options": "dms.acquirers"
       },
       "cancelable": true
     },
