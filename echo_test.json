@@ -13,21 +13,6 @@
       "cancelable": true
     },
     {
-      "id": "deviceId",
-      "type": "input",
-      "metadata": {
-        "inputSubtype": "deviceId",
-        "hsSwitch": "config.enableDeviceSerial",
-        "fieldType": "text",
-        "dmsIDLabel": "DMS ID",
-        "hardwareSerialLabel": "Device Serial",
-        "key": "deviceld",
-        "cancelLabel": "Cancel",
-        "continueLabel": "Proceed",
-        "cancelWarning": "Canceling now may lose unsaved data."
-      }
-    },
-    {
       "id": "confirm_step",
       "type": "input",
       "metadata": {
