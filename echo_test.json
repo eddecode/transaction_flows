@@ -1,0 +1,50 @@
+{
+  "id": "EchoTest",
+  "steps": [
+    {
+      "id": "host_request",
+      "type": "input",
+      "metadata": {
+        "key": "host",
+        "inputSubtype": "optionSelector",
+        "label": "Acquirer",
+        "options": "dms.acquirers"
+      },
+      "cancelable": true
+    },
+    {
+      "id": "confirm_step",
+      "type": "input",
+      "metadata": {
+        "inputSubtype": "confirmation",
+        "label": "Do you want to proceed?",
+        "cancelLabel": "Cancel",
+        "continueLabel": "Proceed"
+      },
+      "cancelable": true  
+    },
+    {
+      "id": "check_reverse",
+      "type": "process",
+      "metadata": {
+        "processTitle": "Validating reverse...",
+        "processSubtitle": "",
+        "processMessage": "",
+        "smallTitle": true
+      }
+    },
+    {
+      "id": "doEchoTest",
+      "type": "process",
+      "subtype": "saleResult",
+      "metadata": {
+        "processTitle": "Doing Echo Test",
+        "processSubtitle": "",
+        "processMessage": "",
+        "smallTitle": true,
+        "subtype": "echoTesting",
+        "indicator": "echoTesting"
+      }
+    }
+  ]
+}
